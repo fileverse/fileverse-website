@@ -20,11 +20,11 @@ export const MENU_ITEMS = [
     path: '#use_case_section',
     offset: '0',
   },
-  {
-    label: 'Social',
-    path: '#social_section',
-    offset: '10',
-  },
+  // {
+  //   label: 'Social',
+  //   path: '#social_section',
+  //   offset: '10',
+  // },
 ];
 
 export const SERVICE_ITEMS = [
