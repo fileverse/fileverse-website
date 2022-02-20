@@ -338,37 +338,37 @@ export const FEATURES = [
     icon: 'flaticon-hourglass',
     title: 'Our friends and families',
     description:
-      'We do not like using Google Drive. We share files à la Web3. Drag & Drop file -> ...',
+      "We don't use Google Drive. We share files à la Web3!",
   },
   {
     icon: 'flaticon-trophy-1',
     title: 'DAOs',
     description:
-      'Want to share some alpha with your fellow DAO members? Share your file with anyone...',
+      "Share your alpha with anons that own the DAO's token. Membership-gating!",
   },
   {
     icon: 'flaticon-upload',
     title: 'NFT Communities',
     description:
-      'Share a document, image or video with anyone that owns a specific NFT (eg. BAYC...',
+      'Share any file with anyone that owns a specific NFT (eg. BAYC or a membership NFT).',
   },
   {
     icon: 'flaticon-settings',
     title: 'Web3 Companies',
     description:
-      'Want to share a file with your team? With Fileverse you can mint NFTs/tokens...',
+      'Create your token/NFT & only team members that own it can access your files.',
   },
   {
     icon: 'flaticon-strategy',
     title: 'Crypto Publishers',
     description:
-      'Are you a crypto news outlet or podcast that sends exclusive content to paying ...',
+      'Send exclusive content to your paying members without asking for emails...',
   },
   {
     icon: 'flaticon-conversation',
     title: 'Blockchain Associates',
     description:
-      'Want to have a permanent URL for all your files? One place for people to see all ...',
+      'Get your fileverse sub-domain, like vitalik.fileverse.io & use it as a one-stop-shop for all of your token-gated content.',
   },
 ];
 
