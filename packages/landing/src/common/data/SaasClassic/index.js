@@ -29,19 +29,19 @@ export const MENU_ITEMS = [
 
 export const SERVICE_ITEMS = [
   {
-    icon: 'flaticon-stopwatch-1',
+    icon: 'flaticon-twitter-logo-silhouette',
     title: 'Twitter',
   },
   {
-    icon: 'flaticon-prototype',
+    icon: 'flaticon-group',
     title: 'Github',
   },
   {
-    icon: 'flaticon-code',
+    icon: 'flaticon-blockchain',
     title: 'Gitcoin',
   },
   {
-    icon: 'flaticon-vectors',
+    icon: 'flaticon-strategy',
     title: 'Email',
   },
 ];
