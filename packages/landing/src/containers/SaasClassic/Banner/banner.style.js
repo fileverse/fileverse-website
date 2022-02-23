@@ -57,7 +57,7 @@ export const DiscountLabel = styled.div`
 export const VideoModal = styled.div`
   display: inline-block;
   position: relative;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   &:before {
     content: '';
