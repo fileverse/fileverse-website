@@ -19,7 +19,7 @@ import {
   PlayButton,
   VideoWrapper,
 } from './banner.style';
-import BannerImage from 'common/assets/image/saasClassic/banner-image.jpg';
+import BannerImage from 'common/assets/image/saasClassic/banner-image.png';
 // import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
@@ -120,9 +120,9 @@ const BannerSection = ({
             <Fade bottom>
               <VideoModal>
                 <NextImage src={BannerImage} alt="banner image" />
-                <PlayButton tabIndex="1000" onClick={handleVideoModal}>
+                {/* <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
-                </PlayButton>
+                </PlayButton> */}
               </VideoModal>
             </Fade>
           </Box>

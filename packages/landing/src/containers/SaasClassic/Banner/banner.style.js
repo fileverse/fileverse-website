@@ -70,7 +70,7 @@ export const VideoModal = styled.div`
       rgb(255, 65, 108) 0%,
       rgb(255, 75, 43) 100%
     );
-    opacity: 0.2;
+    opacity: 0.05;
     pointer-events: none;
     z-index: 2;
   }
