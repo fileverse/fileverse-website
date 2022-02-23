@@ -160,7 +160,7 @@ BannerSection.defaultProps = {
   title: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
     fontWeight: '700',
-    color: '#fff',
+    color: '#000',
     letterSpacing: '-0.025em',
     mb: ['20px', '25px', '25px', '25px', '25px'],
     lineHeight: '1.2',
@@ -168,8 +168,8 @@ BannerSection.defaultProps = {
   },
   description: {
     fontSize: ['15px', '16px', '16px', '16px', '16px'],
-    color: '#fff',
-    lineHeight: '1.75',
+    color: '#000',
+    lineHeight: '1.5',
     mb: '0',
     textAlign: 'center',
   },

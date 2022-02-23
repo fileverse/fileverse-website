@@ -218,17 +218,19 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: #edcd37;
+            color: #000;
           }
         }
         a {
           padding: 5px;
           font-size: 16px;
           font-weight: 400;
-          color: #fff;
+          color: #000;
           transition: 0.15s ease-in-out;
           &:hover {
-            color: #edcd37;
+            color: #000;
+            font-weight: 500;
+            font-size: 17px;
           }
         }
       }

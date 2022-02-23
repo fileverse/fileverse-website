@@ -15,6 +15,7 @@ import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
 import LogoImage from 'common/assets/image/saasClassic/logo-white.png';
 import LogoImageAlt from 'common/assets/image/saasClassic/logo.png';
+import { color } from 'styled-system';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
