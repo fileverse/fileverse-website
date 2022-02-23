@@ -345,7 +345,7 @@ export const FEATURES = [
   {
     style: { height: "3.5em" },
     icon: '/01.svg',
-    title: 'Our friends and families',
+    title: 'Our Friends and Families',
     description:
       "We don't use Google Drive. We share files à la Web3!",
   },
