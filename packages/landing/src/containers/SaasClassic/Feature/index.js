@@ -36,7 +36,9 @@ const FeatureSection = ({
           {FEATURES.map((item, index) => (
             <Box {...col} key={`feature-item-${index}`} className="feature_col">
               <FeatureBlock
-                icon={<i className={item.icon} />}
+                icon={
+                  <img src={item.icon} style={item.style} />
+                }
                 wrapperStyle={FeatureItemStyle}
                 iconStyle={iconStyle}
                 contentStyle={contentStyle}

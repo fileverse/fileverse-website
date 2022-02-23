@@ -39,8 +39,9 @@ const ServiceSection = ({
             >
               <Box className="service_item">
                 <Box className="service_icon">
-                  <i className={item.icon} />
-                </Box>
+                  {item.img ? <img src={item.icon} style={item.style} />
+                    : <i className={item.icon} />
+                  }</Box>
                 <Heading as="h3" content={item.title} {...serviceTitleStyle} />
               </Box>
             </Box>

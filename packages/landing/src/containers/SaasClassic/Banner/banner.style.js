@@ -17,7 +17,7 @@ export const BannerWrapper = styled.section`
   padding: 150px 0 0 0;
   background-image: linear-gradient(
     -139deg,
-    rgb(92, 10, 255) 0%,
+    rgb(255, 222, 10) 0%,
     rgb(255, 222, 10) 100%
   );
   background-size: cover;

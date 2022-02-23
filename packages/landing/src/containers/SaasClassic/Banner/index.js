@@ -19,7 +19,7 @@ import {
   PlayButton,
   VideoWrapper,
 } from './banner.style';
-import BannerImage from 'common/assets/image/saasClassic/banner-image.png';
+import BannerImage from 'common/assets/image/saasClassic/banner-image.svg';
 // import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 

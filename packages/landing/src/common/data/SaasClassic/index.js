@@ -29,19 +29,26 @@ export const MENU_ITEMS = [
 
 export const SERVICE_ITEMS = [
   {
+    img: false,
     icon: 'flaticon-twitter-logo-silhouette',
     title: 'Twitter',
   },
   {
-    icon: 'flaticon-group',
+    img: true,
+    style: { height: "1.2em" },
+    icon: '/github_logo.png',
     title: 'Github',
   },
   {
-    icon: 'flaticon-blockchain',
+    img: true,
+    style: { height: "1.2em" },
+    icon: '/gitcoin.png',
     title: 'Gitcoin',
   },
   {
-    icon: 'flaticon-strategy',
+    img: true,
+    style: { height: "1.0em" },
+    icon: '/mail.png',
     title: 'Email',
   },
 ];
@@ -335,37 +342,43 @@ export const FOOTER_WIDGET = [
 
 export const FEATURES = [
   {
-    icon: 'flaticon-hourglass',
+    style: { height: "3.5em" },
+    icon: '/01.svg',
     title: 'Our friends and families',
     description:
       "We don't use Google Drive. We share files à la Web3!",
   },
   {
-    icon: 'flaticon-trophy-1',
+    style: { height: "3.2em" },
+    icon: '/02.svg',
     title: 'DAOs',
     description:
       "Share your alpha with anons that own the DAO's token. Membership-gating!",
   },
   {
-    icon: 'flaticon-upload',
+    style: { height: "4em" },
+    icon: '/03.svg',
     title: 'NFT Communities',
     description:
       'Share any file with anyone that owns a specific NFT (eg. BAYC or a membership NFT).',
   },
   {
-    icon: 'flaticon-settings',
+    style: { height: "3.2em" },
+    icon: '/04.svg',
     title: 'Web3 Companies',
     description:
       'Create your token/NFT & only team members that own it can access your files.',
   },
   {
-    icon: 'flaticon-strategy',
+    style: { height: "3em" },
+    icon: '/05.svg',
     title: 'Crypto Publishers',
     description:
       'Send exclusive content to your paying members without asking for emails...',
   },
   {
-    icon: 'flaticon-conversation',
+    style: { height: "2.8em" },
+    icon: '/06.svg',
     title: 'Blockchain Associates',
     description:
       'Get your fileverse sub-domain, like vitalik.fileverse.io & use it as a one-stop-shop for all of your token-gated content.',
