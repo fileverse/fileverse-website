@@ -380,7 +380,7 @@ export const FEATURES = [
   {
     style: { height: "2.8em" },
     icon: '/06.svg',
-    title: 'Blockchain Associates',
+    title: 'Blockchain Natives',
     description:
       'Get your fileverse sub-domain, like vitalik.fileverse.io & use it as a one-stop-shop for all of your token-gated content.',
   },

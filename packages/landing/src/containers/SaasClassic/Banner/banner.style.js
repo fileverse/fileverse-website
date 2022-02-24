@@ -67,7 +67,7 @@ export const VideoModal = styled.div`
     display: block;
     background: linear-gradient(
       -139deg,
-      rgb(92, 10, 255) 0%,
+      rgb(255, 222, 10) 0%,
       rgb(255, 222, 10) 100%
     );
     opacity: 0.05;
