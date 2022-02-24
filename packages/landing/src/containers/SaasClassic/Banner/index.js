@@ -96,7 +96,7 @@ const BannerSection = ({
             />
             <Text
               {...description}
-              content="File sharing made easy & built on top of decentralized protocols. Use our elegant token-gating features to control who can access your documents, images, audio and videos."
+              content="Easy file sharing between blockchain addresses & built on top of decentralized protocols. Use our token-gating features to control who can access your documents, images, audio and videos"
             />
             {/* <Box {...buttonWrapper}>
               <Link href="#">
