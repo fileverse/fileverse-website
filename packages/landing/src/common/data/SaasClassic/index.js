@@ -43,7 +43,7 @@ export const SERVICE_ITEMS = [
   {
     img: true,
     style: { height: "1.2em" },
-    icon: '/gitcoin.png',
+    icon: '/gitcoin.svg',
     title: 'Gitcoin',
   },
   {
