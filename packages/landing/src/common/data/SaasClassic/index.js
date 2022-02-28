@@ -39,18 +39,21 @@ export const SERVICE_ITEMS = [
     style: { height: "1.2em" },
     icon: '/github_logo.png',
     title: 'Github',
+    link: 'https://github.com/fileverse',
   },
   {
     img: true,
     style: { height: "1.2em" },
-    icon: '/gitcoin.svg',
+    icon: '/gitcoin.png',
     title: 'Gitcoin',
+    link: 'https://gitcoin.co',
   },
   {
     img: true,
     style: { height: "1.0em" },
     icon: '/mail.png',
     title: 'Email',
+    link: 'mailto:hello@fileverse.io',
   },
 ];
 
