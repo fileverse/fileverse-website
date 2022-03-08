@@ -46,7 +46,7 @@ export const SERVICE_ITEMS = [
     style: { height: "1.2em" },
     icon: '/gitcoin.png',
     title: 'Gitcoin',
-    link: 'https://gitcoin.co',
+    link: 'https://gitcoin.co/grants/4846/fileverseio-file-sharing-between-blockchain-addre',
   },
   {
     img: true,
