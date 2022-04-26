@@ -51,9 +51,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
-              <a className="navbar_button">
-                <Button {...button} title="Coming Soon" />
+            <Link href="https://beta.fileverse.io">
+              <a className="navbar_button" target='_blank'>
+                <Button {...button} title="Go To App" />
               </a>
             </Link>
             <Drawer
@@ -69,9 +69,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#">
-                <a className="navbar_drawer_button">
-                  <Button {...button} title="Coming Soon" />
+              <Link href="https://beta.fileverse.io">
+                <a className="navbar_button" target='_blank'>
+                  <Button {...button} title="Go To App" />
                 </a>
               </Link>
             </Drawer>

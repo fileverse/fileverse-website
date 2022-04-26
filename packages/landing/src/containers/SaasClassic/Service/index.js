@@ -21,10 +21,10 @@ const ServiceSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Heading {...secHeading} content="Where to find us" />
-          <Text
+          {/* <Text
             {...secDes}
             content="Gitcoin application and github page coming soon."
-          />
+          /> */}
         </Box>
 
         <Box {...Row}>
