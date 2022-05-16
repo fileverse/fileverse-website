@@ -44,6 +44,13 @@ export const SERVICE_ITEMS = [
   {
     img: true,
     style: { height: "1.2em" },
+    icon: '/radicle.svg',
+    title: 'Radicle',
+    link: 'https://app.radicle.network/seeds/willow.radicle.garden/rad:git:hnrkj6egqcozks7f7n5dx3766e7m4z5tag8cy',
+  },
+  {
+    img: true,
+    style: { height: "1.2em" },
     icon: '/gitcoin.png',
     title: 'Gitcoin',
     link: 'https://gitcoin.co/grants/4846/fileverseio-file-sharing-between-blockchain-addre',
