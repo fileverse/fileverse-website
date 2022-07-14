@@ -32,7 +32,7 @@ export const SERVICE_ITEMS = [
     img: false,
     icon: 'flaticon-twitter-logo-silhouette',
     title: 'Twitter',
-    link: 'https://twitter.com/fileverseio',
+    link: 'https://twitter.com/fileverse',
   },
   {
     img: true,
