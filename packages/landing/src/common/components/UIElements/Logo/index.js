@@ -13,7 +13,9 @@ const Logo = ({
   logoSrc,
   title,
   ...props
-}) => (
+}) => {
+  console.log(logoSrc.src);
+  return (
   <Link {...props} {...logoWrapperStyle}>
     {withAnchor ? (
       <a {...anchorProps}>
@@ -33,7 +35,7 @@ const Logo = ({
       </>
     )}
   </Link>
-);
+)};
 
 Logo.propTypes = {
   logoSrc: PropTypes.object,

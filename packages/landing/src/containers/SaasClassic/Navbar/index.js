@@ -13,9 +13,10 @@ import { DrawerContext } from 'common/contexts/DrawerContext';
 import { MENU_ITEMS } from 'common/data/SaasClassic';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import LogoImage from 'common/assets/image/saasClassic/logo-white.png';
-import LogoImageAlt from 'common/assets/image/saasClassic/logo.png';
 import { color } from 'styled-system';
+
+const LogoImage = { src: 'https://fileverse.imgix.net/web/public/logo-white.png' };
+const LogoImageAlt = { src: 'https://fileverse.imgix.net/web/public/logo.png' };
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);

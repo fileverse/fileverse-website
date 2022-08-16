@@ -29,7 +29,8 @@ export const MENU_ITEMS = [
 
 export const SERVICE_ITEMS = [
   {
-    img: false,
+    img: true,
+    style: { height: "1.2em" },
     icon: 'https://fileverse.imgix.net/web/public/twitter.png',
     title: 'Twitter',
     link: 'https://twitter.com/fileverse',

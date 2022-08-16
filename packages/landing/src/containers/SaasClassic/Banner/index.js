@@ -19,7 +19,11 @@ import {
   PlayButton,
   VideoWrapper,
 } from './banner.style';
+
 import BannerImage from 'common/assets/image/saasClassic/banner-image.svg';
+
+const myLoader = ({ src, width }) => `https://fileverse.imgix.net/web/public/banner-image.svg?fit=max&w=${width}`;
+
 // import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
@@ -119,7 +123,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal>
-                <NextImage src={'https://fileverse.imgix.net/web/public/banner-image.svg'} alt="banner image" />
+                <NextImage loader={myLoader} src={BannerImage} alt="banner image"/>
                 {/* <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton> */}
