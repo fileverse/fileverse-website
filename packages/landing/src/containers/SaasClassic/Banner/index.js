@@ -20,7 +20,11 @@ import {
   VideoWrapper,
 } from './banner.style';
 
-import BannerImage from 'common/assets/image/saasClassic/banner-image.svg';
+const BannerImage = {
+  src: 'https://fileverse.imgix.net/web/public/banner-image.svg',
+  height: 448,
+  width: 840
+};
 
 const myLoader = ({ width }) => { return `https://fileverse.imgix.net/web/public/banner-image.svg?fit=max&w=${width}` };
 
@@ -123,7 +127,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal>
-                <NextImage unoptimised={true} loader={myLoader} src={BannerImage} alt="banner image"/>
+                <NextImage loader={myLoader} src={BannerImage} alt="banner image"/>
                 {/* <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton> */}
