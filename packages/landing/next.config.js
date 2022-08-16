@@ -9,6 +9,11 @@ const nextConfig = {
       'fileverse.imgix.net',
     ],
   },
+  experimental: {
+    images: {
+      unoptimised: true
+    }
+  }
 };
 
 module.exports = withPlugins([], nextConfig);
