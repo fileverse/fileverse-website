@@ -21,12 +21,12 @@ import {
 } from './banner.style';
 
 const BannerImage = {
-  src: 'https://fileverse.imgix.net/web/public/banner-image.svg',
+  src: 'https://fileverse.imgix.net/web/public/banner-image.png',
   height: 448,
   width: 840
 };
 
-const myLoader = ({ width }) => { return `https://fileverse.imgix.net/web/public/banner-image.svg?fit=max&w=${width}` };
+const myLoader = ({ width }) => { return `https://fileverse.imgix.net/web/public/banner-image.png?fit=max&w=${width}` };
 
 // import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
