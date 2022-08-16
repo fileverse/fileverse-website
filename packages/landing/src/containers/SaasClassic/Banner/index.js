@@ -119,7 +119,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal>
-                <NextImage src={BannerImage} alt="banner image" />
+                <NextImage src={'https://fileverse.imgix.net/web/public/banner-image.svg'} alt="banner image" />
                 {/* <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton> */}

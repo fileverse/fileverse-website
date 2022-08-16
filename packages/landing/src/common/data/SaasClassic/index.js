@@ -30,35 +30,35 @@ export const MENU_ITEMS = [
 export const SERVICE_ITEMS = [
   {
     img: false,
-    icon: 'flaticon-twitter-logo-silhouette',
+    icon: 'https://fileverse.imgix.net/web/public/twitter.png',
     title: 'Twitter',
     link: 'https://twitter.com/fileverse',
   },
   {
     img: true,
     style: { height: "1.2em" },
-    icon: '/github_logo.png',
+    icon: 'https://fileverse.imgix.net/web/public/github_logo.png',
     title: 'Github',
     link: 'https://github.com/fileverse',
   },
   {
     img: true,
     style: { height: "1.2em" },
-    icon: '/radicle.svg',
+    icon: 'https://fileverse.imgix.net/web/public/radicle.svg',
     title: 'Radicle',
     link: 'https://app.radicle.network/seeds/willow.radicle.garden/rad:git:hnrkj6egqcozks7f7n5dx3766e7m4z5tag8cy',
   },
   {
     img: true,
     style: { height: "1.2em" },
-    icon: '/gitcoin.png',
+    icon: 'https://fileverse.imgix.net/web/public/gitcoin.png',
     title: 'Gitcoin',
     link: 'https://gitcoin.co/grants/4846/fileverseio-file-sharing-between-blockchain-addre',
   },
   {
     img: true,
     style: { height: "1.0em" },
-    icon: '/mail.png',
+    icon: 'https://fileverse.imgix.net/web/public/mail.png',
     title: 'Email',
     link: 'mailto:hello@fileverse.io',
   },
@@ -354,42 +354,42 @@ export const FOOTER_WIDGET = [
 export const FEATURES = [
   {
     style: { height: "3.5em" },
-    icon: '/01.svg',
+    icon: 'https://fileverse.imgix.net/web/public/01.svg',
     title: 'Our Friends and Families',
     description:
       "We don't use Google Drive. We share files à la Web3!",
   },
   {
     style: { height: "3.2em" },
-    icon: '/02.svg',
+    icon: 'https://fileverse.imgix.net/web/public/02.svg',
     title: 'DAOs',
     description:
       "Share your alpha with anons that own the DAO's token. Membership-gating!",
   },
   {
     style: { height: "4em" },
-    icon: '/03.svg',
+    icon: 'https://fileverse.imgix.net/web/public/03.svg',
     title: 'NFT Communities',
     description:
       'Share any file with anyone that owns a specific NFT (eg. BAYC or a membership NFT).',
   },
   {
     style: { height: "3.2em" },
-    icon: '/04.svg',
+    icon: 'https://fileverse.imgix.net/web/public/04.svg',
     title: 'Web3 Companies',
     description:
       'Create your token/NFT & only team members that own it can access your files.',
   },
   {
     style: { height: "3em" },
-    icon: '/05.svg',
+    icon: 'https://fileverse.imgix.net/web/public/05.svg',
     title: 'Crypto Publishers',
     description:
       'Send exclusive content to your paying members without asking for emails...',
   },
   {
     style: { height: "2.8em" },
-    icon: '/06.svg',
+    icon: 'https://fileverse.imgix.net/web/public/06.svg',
     title: 'Blockchain Natives',
     description:
       'Get your fileverse sub-domain, like vitalik.fileverse.io & use it as a one-stop-shop for all of your token-gated content.',
